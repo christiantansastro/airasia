@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Proxima+Nova:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --font-proxima-nova: "Proxima Nova";
+  --font-source-serif-pro: "Source Serif Pro";
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+
+  /* Colors */
+  --surface: #fff;
+  --color-red: #ff0000;
+  --color-black: #000;
+  --color-whitesmoke: #eaeaea;
+  --color-dimgray-100: #565656;
+
+  /* Gaps */
+  --gap-5xs: 8px;
+
+  /* Paddings */
+  --padding-5xs: 8px;
+  --padding-base: 16px;
+
+  /* border radiuses */
+  --br-7xs: 6px;
+  --br-9xs: 4px;
+}
